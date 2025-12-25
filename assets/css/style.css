@@ -1889,14 +1889,14 @@ label {
 }
 @media screen and (max-width: 991px) {
   .agenko-client-item.style-two {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
 }
 .agenko-client-item.style-two .client-image img {
   /* -webkit-filter: grayscale(1);
           filter: grayscale(1); */
-  max-width: 150px;
+  max-width: 100px;
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .agenko-client-item.style-two .client-image img {
@@ -3364,12 +3364,12 @@ label {
 }
 @media screen and (max-width: 991px) {
   .hero-wrapper-one .hero-content h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 @media (max-width: 767px) {
   .hero-wrapper-one .hero-content h1 {
-    font-size: 74px;
+    font-size: 70px;
   }
 }
 .hero-wrapper-one .hero-content .big-text {
@@ -4846,3 +4846,7 @@ label {
   padding: 15px 30px;
   border-radius: 10px;
 }
+
+
+
+
