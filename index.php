@@ -715,7 +715,7 @@
             <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
-                <img class="tools-cards__icon animate-in-up" src="./img/skills/github.png" alt="Tools Icon">
+                <img class="tools-cards__icon animate-in-up" src="./img/skills/github.svg" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">Github</h6>
               </div>
             </div>
