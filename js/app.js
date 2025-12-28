@@ -392,36 +392,40 @@ $(function() {
   // --------------------------------------------- //
 
 });
-
 // --------------------------------------------- //
 // Color Switch Start
 // --------------------------------------------- //
 const themeBtn = document.querySelector('.color-switcher');
 
-function getCurrentTheme(){
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  localStorage.getItem('template.theme') ? theme = localStorage.getItem('template.theme') : null;
+function getCurrentTheme() {
+  // Agar user ne pehle choose kiya hai
+  let theme = localStorage.getItem('template.theme');
+
+  // Agar kuch bhi saved nahi hai → default DARK
+  if (!theme) {
+    theme = 'dark';
+  }
+
   return theme;
 }
 
-function loadTheme(theme){
+function loadTheme(theme) {
   const root = document.querySelector(':root');
-  if(theme === "light"){
+
+  if (theme === "light") {
     themeBtn.innerHTML = `<em></em><i class="ph-bold ph-moon-stars"></i>`;
   } else {
     themeBtn.innerHTML = `<em></em><i class="ph-bold ph-sun"></i>`;
   }
-  root.setAttribute('color-scheme', `${theme}`);
-};
+
+  root.setAttribute('color-scheme', theme);
+}
 
 themeBtn.addEventListener('click', () => {
   let theme = getCurrentTheme();
-  if(theme === 'dark'){
-    theme = 'light';
-  } else {
-    theme = 'dark';
-  }
-  localStorage.setItem('template.theme', `${theme}`);
+  theme = theme === 'dark' ? 'light' : 'dark';
+
+  localStorage.setItem('template.theme', theme);
   loadTheme(theme);
 });
 
@@ -431,6 +435,4 @@ window.addEventListener('DOMContentLoaded', () => {
 // --------------------------------------------- //
 // Color Switch End
 // --------------------------------------------- //
-
-
 

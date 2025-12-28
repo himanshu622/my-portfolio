@@ -42,6 +42,23 @@
   <!-- Custom Browser Color End -->
 </head>
 
+<style>
+
+
+@media only screen and (max-width:768px){
+
+  .h2__title {
+    font-size: 20px;
+}
+
+.teaser__text{
+  font-size: 20px;
+}
+}
+
+
+</style>
+
 <body>
 
   <!-- Loader Start -->
@@ -101,7 +118,7 @@
       <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch"
         aria-label="light/dark mode" aria-checked="true"></button>
       <a id="notify-trigger" class="header__trigger btn"
-        href="https://api.whatsapp.com/send?phone=917428538711&text=Hello%20Himanshu,%0A%0AI%20visited%20your%20website%20and%20want%20to%20connect.%0A%0ARegards">
+        href="https://api.whatsapp.com/send?phone=917428538711&text=Hello%20Himanshu,%0A%0AI%20visited%20your%20profile%20and%20want%20to%20connect.%0A%0ARegards">
         <span class="trigger__caption">Let's Talk</span>
         <i class="ph-bold ph-chat-dots"></i>
       </a>
@@ -188,11 +205,13 @@
             </svg>
           </div>
           <div class="logo__caption">
-           <a href="index.html"> <p>Himanshu Sharma</p></a>
+            <a href="index.php">
+              <p>Himanshu Sharma</p>
+            </a>
           </div>
         </div>
         <div class="avatar__image">
-         <a href="index.html">  <img src="./img/avatars/himanshu.jpg" alt="Himanshu Sharma Portfolio"></a>
+          <a href="index.php"> <img src="./img/avatars/himanshu.jpg" alt="Himanshu Sharma Portfolio"></a>
         </div>
       </div>
       <!-- data caption #1 -->
@@ -206,7 +225,7 @@
       <div class="avatar__block">
         <h6>
           <small class="top">Based in:</small>
-          Delhi, Bhajanpura
+          New Delhi
         </h6>
       </div>
       <!-- socials and CTA button -->
@@ -214,7 +233,7 @@
         <div class="avatar__socials">
           <ul class="socials-square d-flex justify-content-between">
             <li class="socials-square__item">
-              <a class="socials-square__link btn" href="https://www.behance.net/" target="_blank"><i
+              <a class="socials-square__link btn" href="https://www.behance.net/himanshusharma308" target="_blank"><i
                   class="ph-bold ph-behance-logo"></i></a>
             </li>
             <li class="socials-square__item">
@@ -222,20 +241,21 @@
                   class="ph-bold ph-instagram-logo"></i></a>
             </li>
             <li class="socials-square__item">
-              <a class="socials-square__link btn" href="https://github.com/your-github-username" target="_blank">
+              <a class="socials-square__link btn" href="https://github.com/himanshu622" target="_blank">
                 <i class="ph-bold ph-github-logo"></i>
               </a>
             </li>
 
             <li class="socials-square__item">
-             <a class="socials-square__link btn" href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">
-               <i class="ph-bold ph-linkedin-logo"></i>
-               </a>
-                </li>
+              <a class="socials-square__link btn" href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.150089839322_crid.656569072777_kw.www%20linkedin_d.c_tid.kwd-2246447582_n.g_mt.e_geo.1007820"
+                target="_blank">
+                <i class="ph-bold ph-linkedin-logo"></i>
+              </a>
+            </li>
 
             <li class="socials-square__item">
               <a class="socials-square__link btn"
-                href="https://api.whatsapp.com/send?phone=917428538711&text=Hello%20Himanshu,%0A%0AI%20visited%20your%20website%20and%20want%20to%20connect.%0A%0ARegards"
+                href="https://api.whatsapp.com/send?phone=917428538711&text=Hello%20Himanshu,%0A%0AI%20visited%20your%20profile%20and%20want%20to%20connect.%0A%0ARegards"
                 target="_blank">
                 <i class="ph-bold ph-whatsapp-logo"></i>
               </a>
@@ -273,7 +293,8 @@
               <span class="btn-caption">My Works</span>
               <i class="ph-bold ph-squares-four"></i>
             </a>
-            <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="#0">
+            <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
+              href="./img/works/himanshu-resume.pdf">
               <span class="btn-caption">Download CV</span>
               <i class="ph-bold ph-download-simple"></i>
             </a>
@@ -309,7 +330,7 @@
       </section>
       <!-- Intro Section End -->
 
-     
+
       <!-- About Section Start -->
       <section id="about" class="inner about">
 
@@ -338,27 +359,32 @@
               <!-- About Me Description Start -->
               <div class="col-12 col-xl-10 grid-item about-descr">
                 <p class="about-descr__text animate-in-up">
-                I am a creative web designer focused on building modern, user-friendly, and visually appealing websites. My approach goes beyond aesthetics—I believe in creating designs that are functional, engaging, and aligned with the brand’s identity.
+                  I am a creative web designer focused on building modern, user-friendly, and visually appealing
+                  websites. My approach goes beyond aesthetics—I believe in creating designs that are functional,
+                  engaging, and aligned with the brand’s identity.
                 </p>
                 <p class="about-descr__text animate-in-up">
-                 With hands-on experience in HTML, CSS, JavaScript, and Bootstrap, I transform ideas into responsive and effective digital solutions. Every project I work on is driven by attention to detail, clean design, and seamless user experience. I am passionate about continuous learning and crafting designs that not only look good but also deliver real value.
+                  With hands-on experience in HTML, CSS, JavaScript, and Bootstrap, I transform ideas into responsive
+                  and effective digital solutions. Every project I work on is driven by attention to detail, clean
+                  design, and seamless user experience. I am passionate about continuous learning and crafting designs
+                  that not only look good but also deliver real value.
                 </p>
               </div>
               <!-- About Me Description End -->
 
-           
+
 
             </div>
           </div>
         </div>
         <!-- Content Block - About Me Data End -->
 
-    
+
 
       </section>
       <!-- About Section End -->
 
-       <!-- Portfolio Section Start -->
+      <!-- Portfolio Section Start -->
       <section id="portfolio" class="inner inner-first portfolio p-0">
 
         <!-- Content Block - H2 Section Title Start -->
@@ -372,11 +398,11 @@
             </svg>
             <span>Portfolio</span>
           </p>
-          
+
           <h2 class="h2__title animate-in-up">Check out my featured projects </h2>
-          
+
         </div>
-        <!-- Content Block - H2 Section Title End --> 
+        <!-- Content Block - H2 Section Title End -->
 
         <!-- Content Block - Works Gallery Start -->
         <div class="content__block grid-block">
@@ -385,17 +411,19 @@
 
               <!-- Works Gallery Single Item Start -->
               <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
-                itemscope itemtype="http://schema.org/ImageObject" >
-                <a href="./img/works/loffeti.jpg" 
-                  data-image="./img/works/loffeti.jpg" class="gallery__link" itemprop="contentUrl"
-                  data-size="416x300">
+                itemscope itemtype="http://schema.org/ImageObject">
+                <a href="./img/works/loffeti.jpg" data-image="./img/works/loffeti.jpg" class="gallery__link"
+                  itemprop="contentUrl" data-size="416x300">
                   <img src="./img/works/loffeti.jpg" class="gallery__image" itemprop="thumbnail"
                     alt="Image description">
                 </a>
 
-          <figcaption class="gallery__descr" itemprop="caption description">
-                  <a href="https://lofetti.com/"><h5>Go To Live</h5></a>
-                  <p class="small">Lofetti’s website showcases bespoke interior solutions with a focus on premium materials and modern craftsmanship.
+                <figcaption class="gallery__descr" itemprop="caption description">
+                  <a href="https://lofetti.com/">
+                    <h5>Go To Live</h5>
+                  </a>
+                  <p class="small">Lofetti’s website showcases bespoke interior solutions with a focus on premium
+                    materials and modern craftsmanship.
                   </p>
                 </figcaption>
               </figure>
@@ -404,50 +432,55 @@
               <!-- Works Gallery Single Item Start -->
               <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
                 itemscope itemtype="http://schema.org/ImageObject">
-                <a href="./img/works/anayku.jpg"
-                  data-image="./img/works/anayku.jpg" class="gallery__link" itemprop="contentUrl"
-                  data-size="416x300">
-                  <img src="./img/works/anayku.jpg" class="gallery__image" itemprop="thumbnail"
-                    alt="Image description">
+                <a href="./img/works/anayku.jpg" data-image="./img/works/anayku.jpg" class="gallery__link"
+                  itemprop="contentUrl" data-size="416x300">
+                  <img src="./img/works/anayku.jpg" class="gallery__image" itemprop="thumbnail" alt="Image description">
                 </a>
                 <figcaption class="gallery__descr opposite" itemprop="caption description">
-                    <a href="https://anayku.com/"><h5>Go To Live</h5></a>
-                  <p class="small">Anayku is a beautifully designed digital wedding invitation website showcasing elegant visuals, event details, and celebrations.
+                  <a href="https://anayku.com/">
+                    <h5>Go To Live</h5>
+                  </a>
+                  <p class="small">Anayku is a beautifully designed digital wedding invitation website showcasing
+                    elegant visuals, event details, and celebrations.
                   </p>
                 </figcaption>
               </figure>
               <!-- Works Gallery Single Item End -->
 
-               <!-- Works Gallery Single Item Start -->
+              <!-- Works Gallery Single Item Start -->
               <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
                 itemscope itemtype="http://schema.org/ImageObject">
-                <a href="./img/works/american.jpg"
-                  data-image="./img/works/american.jpg" class="gallery__link" itemprop="contentUrl"
-                  data-size="416x300">
+                <a href="./img/works/american.jpg" data-image="./img/works/american.jpg" class="gallery__link"
+                  itemprop="contentUrl" data-size="416x300">
                   <img src="./img/works/american.jpg" class="gallery__image" itemprop="thumbnail"
                     alt="Image description">
                 </a>
                 <figcaption class="gallery__descr opposite" itemprop="caption description">
-                    <a href="https://americairlineservice.online/"><h5>Go To Live</h5></a>
-                  <p class="small">A customer service website focused on assisting with American Airlines flight bookings, changes, and reservation support.
+                  <a href="https://americairlineservice.online/">
+                    <h5>Go To Live</h5>
+                  </a>
+                  <p class="small">A customer service website focused on assisting with American Airlines flight
+                    bookings, changes, and reservation support.
                   </p>
                 </figcaption>
               </figure>
               <!-- Works Gallery Single Item End -->
 
 
-             <!-- Works Gallery Single Item Start -->
+              <!-- Works Gallery Single Item Start -->
               <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
                 itemscope itemtype="http://schema.org/ImageObject">
-                <a href="./img/works/thebrownfurniture.jpg"
-                  data-image="./img/works/thebrownfurniture.jpg" class="gallery__link" itemprop="contentUrl"
-                  data-size="416x300">
+                <a href="./img/works/thebrownfurniture.jpg" data-image="./img/works/thebrownfurniture.jpg"
+                  class="gallery__link" itemprop="contentUrl" data-size="416x300">
                   <img src="./img/works/thebrownfurniture.jpg" class="gallery__image" itemprop="thumbnail"
                     alt="Image description">
                 </a>
                 <figcaption class="gallery__descr opposite" itemprop="caption description">
-                    <a href="https://www.thebrownfurniture.com/"><h5>Go To Live</h5></a>
-                  <p class="small">The Brown Furniture is a modern furniture website showcasing modular kitchens, wardrobes, TV units, and elegant interior solutions.
+                  <a href="https://www.thebrownfurniture.com/">
+                    <h5>Go To Live</h5>
+                  </a>
+                  <p class="small">The Brown Furniture is a modern furniture website showcasing modular kitchens,
+                    wardrobes, TV units, and elegant interior solutions.
                   </p>
                 </figcaption>
               </figure>
@@ -455,14 +488,14 @@
 
 
             </div>
-            
-          <div class="d-flex justify-content-center mt-5">
-  <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
-     href="projects.html">
-    <span class="btn-caption">Explore More Projects</span>
-    <i class="ph-bold ph-squares-four"></i>
-  </a>
-</div>
+
+            <div class="d-flex justify-content-center mt-5">
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+                href="projects.php">
+                <span class="btn-caption">Explore More Projects</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+            </div>
           </div>
         </div>
         <!-- Content Block - Works Gallery End -->
@@ -487,17 +520,16 @@
           </p>
           <h2 class="h2__title animate-in-up">Education and practical experience</h2>
           <p class="h2__text animate-in-up">
-            Be what you would seem to be - or, if you'd like it put more simply - never imagine yourself not to be
-            otherwise
-            than what it might appear to others that what you were or
-            <a href="#0" class="text-link">might have been</a>
-            was not otherwise than what you had been
-            would have appeared to them to be otherwise.
+            I am a passionate Frontend Developer skilled in creating responsive and user-friendly websites using HTML,
+            CSS, JavaScript, and Bootstrap. With hands-on experience in website development, UI implementation, and
+            performance improvements, I focus on clean design, structured code, and seamless user experiences. I enjoy
+            turning ideas into functional digital solutions while continuously learning and improving my skills.
           </p>
-            <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline mt-5" href="#0">
-              <span class="btn-caption">Download CV</span>
-              <i class="ph-bold ph-download-simple"></i>
-            </a>
+          <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline mt-5"
+            href="./img/works/himanshu-resume.pdf">
+            <span class="btn-caption">Download CV</span>
+            <i class="ph-bold ph-download-simple"></i>
+          </a>
         </div>
         <!-- Content Block - H2 Section Title End -->
 
@@ -524,7 +556,7 @@
                 </p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, consequuntur?</p>
+                <p class="small resume-lines__descr animate-in-up">Gained a strong academic foundation with a focus on communication, analytical thinking, and problem-solving skills that support my work in frontend development and web design.</p>
               </div>
             </div>
             <!-- education single item -->
@@ -539,7 +571,7 @@
                 </p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo.</p>
+                <p class="small resume-lines__descr animate-in-up">Completed hands-on training in website designing with a strong focus on modern layouts, responsiveness, and real-world project execution.</p>
               </div>
             </div>
             <!-- education single item -->
@@ -554,7 +586,7 @@
                 </p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, incidunt.</p>
+                <p class="small resume-lines__descr animate-in-up">Completed secondary and senior secondary education with an emphasis on core subjects, discipline, and foundational computer knowledge.</p>
               </div>
             </div>
           </div>
@@ -584,7 +616,7 @@
                 <p class="resume-lines__source animate-in-up">Ran Technology</p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, nostrum?</p>
+                <p class="small resume-lines__descr animate-in-up">Working on website development, UI implementation, updates, and performance improvements while collaborating with the team to deliver client-ready solutions.</p>
               </div>
             </div>
             <!-- experience single item -->
@@ -597,7 +629,7 @@
                 <p class="resume-lines__source animate-in-up">Laudable Studio </p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, asperiores.</p>
+                <p class="small resume-lines__descr animate-in-up">Managed social media content, assisted in photoshoots, and supported digital campaigns to improve brand visibility and engagement.</p>
               </div>
             </div>
             <!-- experience single item -->
@@ -606,11 +638,11 @@
                 <span class="resume-lines__date animate-in-up">Dec 2022 - Feb 2024</span>
               </div>
               <div class="col-12 col-md-5">
-                <h5 class="resume-lines__title animate-in-up">Digital Social Media <br> Handle</h5> 
+                <h5 class="resume-lines__title animate-in-up">Digital Social Media <br> Handle</h5>
                 <p class="resume-lines__source animate-in-up">Technetium World </p>
               </div>
               <div class="col-12 col-md-5">
-                <p class="small resume-lines__descr animate-in-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, temporibus!</p>
+                <p class="small resume-lines__descr animate-in-up">Handled social media accounts, content posting, and basic performance tracking to maintain consistent online presence.</p>
               </div>
             </div>
           </div>
@@ -631,7 +663,7 @@
         <div class="content__block grid-block block-large">
           <!-- Tools List Start -->
           <div class="tools-cards d-flex justify-content-start flex-wrap">
-             <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
@@ -645,14 +677,14 @@
                 <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
               </div>
             </div>
-             <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/javascript.svg" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">JavaScript</h6>
               </div>
             </div>
-              <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/Bootstrap_logo.svg.png" alt="Tools Icon">
@@ -673,48 +705,48 @@
                 <h6 class="tools-cards__caption animate-in-up">Figma</h6>
               </div>
             </div>
-             <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/canva.svg" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">Canva</h6>
               </div>
             </div>
-              <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/github.png" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">Github</h6>
               </div>
             </div>
-              <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/hostinger.png" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">Hostinger</h6>
               </div>
             </div>
-             <!-- tools simgle item -->
+            <!-- tools simgle item -->
             <div class="tools-cards__item d-flex grid-item-s animate-card-5">
               <div class="tools-cards__card">
                 <img class="tools-cards__icon animate-in-up" src="./img/skills/visual-studio-code.svg" alt="Tools Icon">
                 <h6 class="tools-cards__caption animate-in-up">Visual Studio</h6>
               </div>
             </div>
-            
-  
+
+
           </div>
           <!-- Tools List End -->
         </div>
         <!-- Content Block - Tools List End -->
 
-       
+
 
       </section>
       <!-- Resume Section End -->
 
       <!-- Contact Section Start -->
-      <section id="contact" class="inner contact">
+      <section id="contact" class="inner contact pt-0">
 
         <!-- Content Block - H2 Section Title Start -->
         <div class="content__block section-title">
@@ -744,10 +776,10 @@
             <!-- Reply Messages End -->
 
             <!-- Contact Form Start -->
-            <form class="form contact-form" id="contact-form">
+            <form class="form contact-form" id="contact-form" method="POST" action="mail.php">
               <!-- Hidden Required Fields -->
-              <input type="hidden" name="project_name" value="Starter Template">
-              <input type="hidden" name="admin_email" value="support@mixdesign.dev">
+              <input type="hidden" name="project_name" value="Himanshu Sharma Portfolio">
+              <input type="hidden" name="admin_email" value="himanshush0055@gmail.com">
               <input type="hidden" name="form_subject" value="Contact Form Message">
               <!-- END Hidden Required Fields-->
               <div class="container-fluid p-0">
@@ -785,7 +817,7 @@
 
         <!-- Content Block - Teaser Start -->
         <div class="content__block">
-          <div class="teaser">
+          <div class="teaser pt-0">
             <p class="teaser__text animate-in-up">Want to know more about me, tell me
               about your project or just to say hello?
               <a class="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">Drop me a
@@ -805,7 +837,7 @@
               <div class="col-12 col-md-4 contact-lines__data">
                 <p class="contact-lines__title animate-in-up">Location</p>
                 <p class="contact-lines__text animate-in-up">
-                  Delhi, Bhajanpura
+                  New Delhi
                 </p>
               </div>
               <!-- data item -->
@@ -819,7 +851,8 @@
               <div class="col-12 col-md-4 contact-lines__data">
                 <p class="contact-lines__title animate-in-up">Email</p>
                 <p class="contact-lines__text animate-in-up">
-                 <a href="mailto:himanshush0055@gmail.com?subject=Message%20from%20your%20site">himanshush0055@gmail.com</a>
+                  <a
+                    href="mailto:himanshush0055@gmail.com?subject=Message%20from%20your%20site">himanshush0055@gmail.com</a>
                 </p>
               </div>
             </div>
