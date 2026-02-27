@@ -42,6 +42,23 @@
   <!-- Custom Browser Color End -->
 </head>
 
+<style>
+  
+        .desktop {
+            display: flex;
+        }
+        .mobile {
+            display: none;
+        }
+        @media only screen and (max-width: 768px) {
+            .desktop {
+                display: none;
+            }
+            .mobile {
+                display: block;
+            }
+          }
+</style>
 <body>
 
   <!-- Loader Start -->
@@ -54,14 +71,14 @@
   <!-- Loader End -->
 
   <!-- Header Start -->
-  <header id="header" class="header d-flex justify-content-between">
+  <header id="header" class="header d-flex justify-content-between desktop">
 
     <!-- Navigation Menu Start -->
     <div class="header__navigation">
       <nav id="menu" class="menu">
         <ul class="menu__list d-flex justify-content-start">
           <li class="menu__item">
-            <a class="menu__link btn" href="#home">
+            <a class="menu__link btn" href="index.html">
               <span class="menu__caption">Home</span>
               <i class="ph-bold ph-house-simple"></i>
             </a>
@@ -112,7 +129,7 @@
   <!-- Header End -->
 
   <!-- SVG Background Start -->
-  <div id="svgBackground" class="svg-background">
+  <div id="svgBackground" class="svg-background desktop">
     <!-- top svg item -->
     <div class="background__svg01" data-speed="0.8">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1000px" height="1000px"
@@ -155,7 +172,7 @@
   <!-- SVG Background End -->
 
   <!-- Avatar Side Block Start -->
-  <div id="avatar" class="avatar">
+  <div id="avatar" class="avatar desktop">
     <div class="avatar__container d-flex flex-column justify-content-lg-between">
       <!-- image and logo -->
       <div class="avatar__block">
